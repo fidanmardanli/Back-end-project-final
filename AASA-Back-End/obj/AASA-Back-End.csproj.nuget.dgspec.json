@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marda\\Desktop\\AASA-Back-end\\AASA-Back-End\\AASA-Back-End.csproj": {}
+    "C:\\Users\\marda\\Desktop\\Back\\AASA-Back-End\\AASA-Back-End.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marda\\Desktop\\AASA-Back-end\\AASA-Back-End\\AASA-Back-End.csproj": {
+    "C:\\Users\\marda\\Desktop\\Back\\AASA-Back-End\\AASA-Back-End.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marda\\Desktop\\AASA-Back-end\\AASA-Back-End\\AASA-Back-End.csproj",
+        "projectUniqueName": "C:\\Users\\marda\\Desktop\\Back\\AASA-Back-End\\AASA-Back-End.csproj",
         "projectName": "AASA-Back-End",
-        "projectPath": "C:\\Users\\marda\\Desktop\\AASA-Back-end\\AASA-Back-End\\AASA-Back-End.csproj",
+        "projectPath": "C:\\Users\\marda\\Desktop\\Back\\AASA-Back-End\\AASA-Back-End.csproj",
         "packagesPath": "C:\\Users\\marda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marda\\Desktop\\AASA-Back-end\\AASA-Back-End\\obj\\",
+        "outputPath": "C:\\Users\\marda\\Desktop\\Back\\AASA-Back-End\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

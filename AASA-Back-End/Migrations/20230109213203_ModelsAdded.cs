@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace AASA_Back_End.Migrations
 {
-    public partial class AddIdentityTables : Migration
+    public partial class ModelsAdded : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -41,11 +41,121 @@ namespace AASA_Back_End.Migrations
                     LockoutEnabled = table.Column<bool>(nullable: false),
                     AccessFailedCount = table.Column<int>(nullable: false),
                     FullName = table.Column<string>(nullable: true),
-                    Age = table.Column<int>(nullable: false)
+                    Age = table.Column<int>(nullable: false),
+                    IsActive = table.Column<bool>(nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Categories",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IsDeleted = table.Column<bool>(nullable: false),
+                    Header = table.Column<string>(nullable: true),
+                    Description = table.Column<string>(nullable: true),
+                    ImageFirst = table.Column<string>(nullable: true),
+                    ImageSecond = table.Column<string>(nullable: true),
+                    ImageThird = table.Column<string>(nullable: true),
+                    TitleFirst = table.Column<string>(nullable: true),
+                    TitleSecond = table.Column<string>(nullable: true),
+                    TitleThird = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categories", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Employeees",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IsDeleted = table.Column<bool>(nullable: false),
+                    FullName = table.Column<string>(nullable: false),
+                    Age = table.Column<int>(nullable: false),
+                    Position = table.Column<string>(nullable: false),
+                    IsActive = table.Column<bool>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Employeees", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Portfolios",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IsDeleted = table.Column<bool>(nullable: false),
+                    ImageFirst = table.Column<string>(nullable: true),
+                    ImageSecond = table.Column<string>(nullable: true),
+                    ImageThird = table.Column<string>(nullable: true),
+                    ImageFourth = table.Column<string>(nullable: true),
+                    ImageFifth = table.Column<string>(nullable: true),
+                    ImageSixth = table.Column<string>(nullable: true),
+                    ImageSeventh = table.Column<string>(nullable: true),
+                    ImageEighth = table.Column<string>(nullable: true),
+                    ImageNinth = table.Column<string>(nullable: true),
+                    TitleFirst = table.Column<string>(maxLength: 40, nullable: false),
+                    TitleSecond = table.Column<string>(nullable: true),
+                    TitleThird = table.Column<string>(nullable: true),
+                    TitleFourth = table.Column<string>(nullable: true),
+                    TitleFifth = table.Column<string>(nullable: true),
+                    TitleSixth = table.Column<string>(nullable: true),
+                    TitleSeventh = table.Column<string>(nullable: true),
+                    TitleEighth = table.Column<string>(nullable: true),
+                    TitleNinth = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Portfolios", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Settings",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IsDeleted = table.Column<bool>(nullable: false),
+                    Key = table.Column<string>(nullable: true),
+                    Value = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Settings", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Sliders",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    IsDeleted = table.Column<bool>(nullable: false),
+                    ImageFirst = table.Column<string>(nullable: true),
+                    ImageSecond = table.Column<string>(nullable: true),
+                    ImageThird = table.Column<string>(nullable: true),
+                    TitleFirst = table.Column<string>(nullable: true),
+                    TitleSecond = table.Column<string>(nullable: true),
+                    TitleThird = table.Column<string>(nullable: true),
+                    DescriptionFirst = table.Column<string>(maxLength: 40, nullable: false),
+                    DescriptionSecond = table.Column<string>(nullable: true),
+                    DescriptionThird = table.Column<string>(nullable: true),
+                    TextFirst = table.Column<string>(nullable: true),
+                    TextSecond = table.Column<string>(nullable: true),
+                    TextThird = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Sliders", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -210,6 +320,21 @@ namespace AASA_Back_End.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Categories");
+
+            migrationBuilder.DropTable(
+                name: "Employeees");
+
+            migrationBuilder.DropTable(
+                name: "Portfolios");
+
+            migrationBuilder.DropTable(
+                name: "Settings");
+
+            migrationBuilder.DropTable(
+                name: "Sliders");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

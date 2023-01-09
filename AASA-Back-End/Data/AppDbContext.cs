@@ -21,7 +21,6 @@ namespace AASA_Back_End.Data
 
         public DbSet<Employee> Employeees { get; set; }
 
-        public DbSet<Slider2> Sliders2 { get; set; }
 
 
 

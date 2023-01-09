@@ -29,7 +29,7 @@ namespace AASA_Back_End.Controllers
 
             Slider slider = _context.Sliders.FirstOrDefault();
 
-          Slider2 slider2 = _context.Sliders2.FirstOrDefault();
+       
 
 
             //HomeVM model = new HomeVM
@@ -41,7 +41,7 @@ namespace AASA_Back_End.Controllers
             //};
           
 
-            return View(slider2);
+            return View(slider);
         }
 
         //public IActionResult Test()

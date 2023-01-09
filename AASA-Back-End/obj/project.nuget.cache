@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "on1INF/QfR+rIfKpMETE9hAdgUJGXvukAANVJXckdX4EQjJLqsIyoLtgTKNCxh77mvuKyj8aYjwlAmt7+Mw57Q==",
+  "dgSpecHash": "RdHCgeUrKwjTIJeegFNkd+/2h2Kh3ONTTW9NuO1VC3lk1XF7cQ0qz0KUN8hk+lHvOZe9pmMhgmJ0jHQxXXVPgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marda\\Desktop\\AASA-Back-end\\AASA-Back-End\\AASA-Back-End.csproj",
+  "projectFilePath": "C:\\Users\\marda\\Desktop\\Back\\AASA-Back-End\\AASA-Back-End.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marda\\.nuget\\packages\\entityframeworkpaginate\\1.2.0\\entityframeworkpaginate.1.2.0.nupkg.sha512",
     "C:\\Users\\marda\\.nuget\\packages\\mailkit\\3.4.3\\mailkit.3.4.3.nupkg.sha512",

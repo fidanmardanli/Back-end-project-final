@@ -115,6 +115,9 @@ namespace AASA_Back_End.Migrations
                     b.Property<string>("ImageThird")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("TitleFirst")
                         .HasColumnType("nvarchar(max)");
 
@@ -144,6 +147,9 @@ namespace AASA_Back_End.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Position")
@@ -189,6 +195,9 @@ namespace AASA_Back_End.Migrations
                     b.Property<string>("ImageThird")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("TitleEighth")
                         .HasColumnType("nvarchar(max)");
 
@@ -230,6 +239,9 @@ namespace AASA_Back_End.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Key")
                         .HasColumnType("nvarchar(max)");
 
@@ -268,6 +280,9 @@ namespace AASA_Back_End.Migrations
                     b.Property<string>("ImageThird")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("TextFirst")
                         .HasColumnType("nvarchar(max)");
 
@@ -289,54 +304,6 @@ namespace AASA_Back_End.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Sliders");
-                });
-
-            modelBuilder.Entity("AASA_Back_End.Models.Slider2", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("DescriptionFirst")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DescriptionSecond")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("DescriptionThird")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageFirst")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageSecond")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("ImageThird")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TextFirst")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TextSecond")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TextThird")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TitleFirst")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TitleSecond")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("TitleThird")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Sliders2");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

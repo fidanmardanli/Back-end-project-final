@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AASA_Back_End.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230107152831_AddActiveColumnDefaultValure")]
-    partial class AddActiveColumnDefaultValure
+    [Migration("20230109213203_ModelsAdded")]
+    partial class ModelsAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -117,6 +117,9 @@ namespace AASA_Back_End.Migrations
                     b.Property<string>("ImageThird")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("TitleFirst")
                         .HasColumnType("nvarchar(max)");
 
@@ -146,6 +149,9 @@ namespace AASA_Back_End.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<string>("Position")
@@ -191,6 +197,9 @@ namespace AASA_Back_End.Migrations
                     b.Property<string>("ImageThird")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("TitleEighth")
                         .HasColumnType("nvarchar(max)");
 
@@ -232,6 +241,9 @@ namespace AASA_Back_End.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Key")
                         .HasColumnType("nvarchar(max)");
 
@@ -269,6 +281,9 @@ namespace AASA_Back_End.Migrations
 
                     b.Property<string>("ImageThird")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("TextFirst")
                         .HasColumnType("nvarchar(max)");
