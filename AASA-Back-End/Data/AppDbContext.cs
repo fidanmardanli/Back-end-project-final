@@ -21,8 +21,21 @@ namespace AASA_Back_End.Data
 
         public DbSet<Employee> Employeees { get; set; }
 
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Type> Types { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
 
+            modelBuilder.Entity<Employee>().HasQueryFilter(m => !m.IsDeleted);
+            modelBuilder.Entity<Portfolio>().HasQueryFilter(m => !m.IsDeleted);
+            modelBuilder.Entity<Product>().HasQueryFilter(m => !m.IsDeleted);
+            modelBuilder.Entity<Setting>().HasQueryFilter(m => !m.IsDeleted);
+            modelBuilder.Entity<Slider>().HasQueryFilter(m => !m.IsDeleted);
+            modelBuilder.Entity<Type>().HasQueryFilter(m => !m.IsDeleted);
+            modelBuilder.Entity<Category>().HasQueryFilter(m => !m.IsDeleted);
 
+        }
     }
 }
