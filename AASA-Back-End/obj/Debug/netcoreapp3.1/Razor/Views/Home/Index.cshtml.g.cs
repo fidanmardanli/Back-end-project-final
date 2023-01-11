@@ -336,8 +336,7 @@ AddHtmlAttributeValue("", 2516, Model.ImageThird, 2516, 17, false);
                     <li class=""nav-item"">
                         <a class=""nav-link"" data-bs-toggle=""tab"" href=""#tab-4"">Azercosmos Excellence</a>
                     </li>
-                </ul>
-");
+                </ul>");
             WriteLiteral(@"
             </div>
             <div class=""col-lg-9 mt-4 mt-lg-0"">
