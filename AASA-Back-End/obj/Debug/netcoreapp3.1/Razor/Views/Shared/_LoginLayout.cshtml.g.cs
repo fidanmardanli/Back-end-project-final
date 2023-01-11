@@ -40,8 +40,15 @@ using AASA_Back_End.ViewModel.AccountViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\marda\Desktop\Back\AASA-Back-End\Views\_ViewImports.cshtml"
+using AASA_Back_End.ViewModel.ProductViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"de26767c1ea49130cbad62b22ebd5f73dd69b43d", @"/Views/Shared/_LoginLayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57bdbb247fcfbd5665530c2f746f1c1ba4d70c8a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"27ee920e0e67cab8b2a3425480a531d506e6e6f9", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__LoginLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -72,7 +79,7 @@ using AASA_Back_End.ViewModel.AccountViewModels;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\" dir=\"ltr\">\r\n  ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de26767c1ea49130cbad62b22ebd5f73dd69b43d3699", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de26767c1ea49130cbad62b22ebd5f73dd69b43d3896", async() => {
                 WriteLiteral(@"
     <meta charset=""UTF-8"">
     <link rel=""stylesheet"" href=""assets/css/login.css"">
@@ -91,7 +98,7 @@ using AASA_Back_End.ViewModel.AccountViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n   ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de26767c1ea49130cbad62b22ebd5f73dd69b43d4956", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "de26767c1ea49130cbad62b22ebd5f73dd69b43d5153", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_BodyTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.BodyTagHelper>();

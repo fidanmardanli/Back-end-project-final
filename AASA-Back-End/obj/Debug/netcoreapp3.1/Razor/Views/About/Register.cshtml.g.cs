@@ -40,8 +40,15 @@ using AASA_Back_End.ViewModel.AccountViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\marda\Desktop\Back\AASA-Back-End\Views\_ViewImports.cshtml"
+using AASA_Back_End.ViewModel.ProductViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"88f92f84720df8874fd2f90fc3fd91cbf585e16c", @"/Views/About/Register.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57bdbb247fcfbd5665530c2f746f1c1ba4d70c8a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"27ee920e0e67cab8b2a3425480a531d506e6e6f9", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_About_Register : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -82,7 +89,7 @@ using AASA_Back_End.ViewModel.AccountViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88f92f84720df8874fd2f90fc3fd91cbf585e16c3898", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "88f92f84720df8874fd2f90fc3fd91cbf585e16c4095", async() => {
                 WriteLiteral(@"
     <div class=""mb-3"">
         <label for=""exampleInputEmail1"" class=""form-label"">Email address</label>

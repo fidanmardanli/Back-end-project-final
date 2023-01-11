@@ -40,8 +40,15 @@ using AASA_Back_End.ViewModel.AccountViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\marda\Desktop\Back\AASA-Back-End\Views\_ViewImports.cshtml"
+using AASA_Back_End.ViewModel.ProductViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"233ae543d79bdad173e767cba4755b213445b1f1", @"/Views/Login/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57bdbb247fcfbd5665530c2f746f1c1ba4d70c8a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"27ee920e0e67cab8b2a3425480a531d506e6e6f9", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Login_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     #nullable disable
@@ -87,7 +94,7 @@ using AASA_Back_End.ViewModel.AccountViewModels;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n\r\n    <div class=\"container\">\r\n        <input type=\"checkbox\" id=\"flip\">\r\n        <div class=\"cover\">\r\n            <div class=\"front\">\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "233ae543d79bdad173e767cba4755b213445b1f15624", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "233ae543d79bdad173e767cba4755b213445b1f15821", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -109,7 +116,7 @@ using AASA_Back_End.ViewModel.AccountViewModels;
             </div>
             <div class=""back"">
                 ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "233ae543d79bdad173e767cba4755b213445b1f17032", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "233ae543d79bdad173e767cba4755b213445b1f17229", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -136,7 +143,7 @@ using AASA_Back_End.ViewModel.AccountViewModels;
                 <div class=""login-form"">
                     <div class=""title"">Login</div>
                     ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "233ae543d79bdad173e767cba4755b213445b1f18682", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "233ae543d79bdad173e767cba4755b213445b1f18879", async() => {
                 WriteLiteral(@"
                         <div class=""input-boxes"">
                             <div class=""input-box"">
@@ -169,7 +176,7 @@ using AASA_Back_End.ViewModel.AccountViewModels;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                </div>\r\n                <div class=\"signup-form\">\r\n                    <div class=\"title\">Signup</div>\r\n                    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "233ae543d79bdad173e767cba4755b213445b1f111155", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "233ae543d79bdad173e767cba4755b213445b1f111352", async() => {
                 WriteLiteral(@"
                         <div class=""input-boxes"">
                             <div class=""input-box"">

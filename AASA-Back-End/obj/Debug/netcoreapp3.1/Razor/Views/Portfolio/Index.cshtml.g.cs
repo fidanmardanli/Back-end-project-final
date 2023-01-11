@@ -40,8 +40,15 @@ using AASA_Back_End.ViewModel.AccountViewModels;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 5 "C:\Users\marda\Desktop\Back\AASA-Back-End\Views\_ViewImports.cshtml"
+using AASA_Back_End.ViewModel.ProductViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"376eb4431ccf29f36a91a011a8820f4ba518843f", @"/Views/Portfolio/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"57bdbb247fcfbd5665530c2f746f1c1ba4d70c8a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"27ee920e0e67cab8b2a3425480a531d506e6e6f9", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Portfolio_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Portfolio>
     #nullable disable
@@ -126,7 +133,7 @@ using AASA_Back_End.ViewModel.AccountViewModels;
             <div class=""row portfolio-container"">
 ");
             WriteLiteral("\r\n                <div class=\"col-lg-4 col-md-6 portfolio-item filter-app\">\r\n                    <div class=\"portfolio-wrap\">\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f12500", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f12697", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -151,7 +158,7 @@ AddHtmlAttributeValue("", 1217, Model.ImageFirst, 1217, 17, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Nebulas </h4>\r\n                            <p>Nebula</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f14396", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f14593", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );
@@ -178,7 +185,7 @@ AddHtmlAttributeValue("", 1217, Model.ImageFirst, 1217, 17, false);
                 <div class=""col-lg-4 col-md-6 portfolio-item filter-web"">
                     <div class=""portfolio-wrap"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f16217", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f16414", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -203,7 +210,7 @@ AddHtmlAttributeValue("", 2143, Model.ImageSecond, 2143, 18, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Moon</h4>\r\n                            <p>Moon</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f18108", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f18305", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );
@@ -230,7 +237,7 @@ AddHtmlAttributeValue("", 2143, Model.ImageSecond, 2143, 18, false);
                 <div class=""col-lg-4 col-md-6 portfolio-item filter-app"">
                     <div class=""portfolio-wrap"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f19929", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f20126", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -255,7 +262,7 @@ AddHtmlAttributeValue("", 3062, Model.ImageThird, 3062, 17, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Nebula</h4>\r\n                            <p>Nebula</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f21824", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f22021", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );
@@ -282,7 +289,7 @@ AddHtmlAttributeValue("", 3062, Model.ImageThird, 3062, 17, false);
                 <div class=""col-lg-4 col-md-6 portfolio-item filter-card"">
                     <div class=""portfolio-wrap"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f23646", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f23843", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -307,7 +314,7 @@ AddHtmlAttributeValue("", 3993, Model.ImageFourth, 3993, 18, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Earth</h4>\r\n                            <p>Earth</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f25540", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f25737", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );
@@ -334,7 +341,7 @@ AddHtmlAttributeValue("", 3993, Model.ImageFourth, 3993, 18, false);
                 <div class=""col-lg-4 col-md-6 portfolio-item filter-web"">
                     <div class=""portfolio-wrap"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f27363", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f27560", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -359,7 +366,7 @@ AddHtmlAttributeValue("", 4910, Model.ImageFifth, 4910, 17, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Moon</h4>\r\n                            <p>Moon</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f29253", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f29450", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );
@@ -386,7 +393,7 @@ AddHtmlAttributeValue("", 4910, Model.ImageFifth, 4910, 17, false);
                 <div class=""col-lg-4 col-md-6 portfolio-item filter-app"">
                     <div class=""portfolio-wrap"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f31076", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f31273", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -411,7 +418,7 @@ AddHtmlAttributeValue("", 5828, Model.ImageSixth, 5828, 17, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Nebula</h4>\r\n                            <p>Nebula</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f32972", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f33169", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );
@@ -438,7 +445,7 @@ AddHtmlAttributeValue("", 5828, Model.ImageSixth, 5828, 17, false);
                 <div class=""col-lg-4 col-md-6 portfolio-item filter-card"">
                     <div class=""portfolio-wrap"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f34796", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f34993", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -463,7 +470,7 @@ AddHtmlAttributeValue("", 6755, Model.ImageSeventh, 6755, 19, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Earth</h4>\r\n                            <p>Earth</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f36692", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f36889", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );
@@ -490,7 +497,7 @@ AddHtmlAttributeValue("", 6755, Model.ImageSeventh, 6755, 19, false);
                 <div class=""col-lg-4 col-md-6 portfolio-item filter-card"">
                     <div class=""portfolio-wrap"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f38516", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f38713", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -515,7 +522,7 @@ AddHtmlAttributeValue("", 7682, Model.ImageEighth, 7682, 18, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Earth</h4>\r\n                            <p>Earth</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f40411", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f40608", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );
@@ -542,7 +549,7 @@ AddHtmlAttributeValue("", 7682, Model.ImageEighth, 7682, 18, false);
                 <div class=""col-lg-4 col-md-6 portfolio-item filter-web"">
                     <div class=""portfolio-wrap"">
                         ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f42234", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "376eb4431ccf29f36a91a011a8820f4ba518843f42431", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -567,7 +574,7 @@ AddHtmlAttributeValue("", 8600, Model.ImageNinth, 8600, 17, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        <div class=\"portfolio-info\">\r\n                            <h4>Moon</h4>\r\n                            <p>Moon</p>\r\n                            <div class=\"portfolio-links\">\r\n                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f44125", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "376eb4431ccf29f36a91a011a8820f4ba518843f44322", async() => {
                 WriteLiteral("<i class=\"bx bx-plus\"></i>");
             }
             );

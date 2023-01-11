@@ -33,8 +33,15 @@ using AASA_Back_End.ViewModel;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "C:\Users\marda\Desktop\Back\AASA-Back-End\Areas\AdminArea\Views\_ViewImports.cshtml"
+using AASA_Back_End.ViewModel.ProductViewModel;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"2118e41d987912b510585d01c422b904e5c873e8", @"/Areas/AdminArea/Views/Employee/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e79068a4bdbed982b286c0879c5d129c2147d47b", @"/Areas/AdminArea/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b84f269b8fec19838685b3c432555cd645e1d9c8", @"/Areas/AdminArea/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_AdminArea_Views_Employee_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<Employee>>
     #nullable disable
@@ -89,7 +96,7 @@ using AASA_Back_End.ViewModel;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"container-fluid my-3 mx-3\">\r\n    <div class=\"table-responsive pt-3\">\r\n        <div class=\"create-btn\">\r\n            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e88810", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e89023", async() => {
                 WriteLiteral(" <i class=\"mdi mdi-new-box\"></i>");
             }
             );
@@ -184,7 +191,7 @@ WriteAttributeValue("", 1062, emp.IsActive ? "text-success" : "text-danger", 106
 #line hidden
 #nullable disable
             WriteLiteral("                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2118e41d987912b510585d01c422b904e5c873e813107", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2118e41d987912b510585d01c422b904e5c873e813320", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -209,7 +216,7 @@ WriteAttributeValue("", 1062, emp.IsActive ? "text-success" : "text-danger", 106
 #line hidden
 #nullable disable
             WriteLiteral("                                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2118e41d987912b510585d01c422b904e5c873e814547", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "2118e41d987912b510585d01c422b904e5c873e814760", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -232,7 +239,7 @@ WriteAttributeValue("", 1062, emp.IsActive ? "text-success" : "text-danger", 106
 #line hidden
 #nullable disable
             WriteLiteral("\r\n                        \r\n                    </td>\r\n                       \r\n                  <td>\r\n                       ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e816027", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e816240", async() => {
                 WriteLiteral("\r\n                            <button type=\"submit\" class=\"btn btn-success\">\r\n                                on / off\r\n                                </button>\r\n                        ");
             }
             );
@@ -268,7 +275,7 @@ WriteAttributeValue("", 1062, emp.IsActive ? "text-success" : "text-danger", 106
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e818998", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e819211", async() => {
                 WriteLiteral("  <i class=\"mdi mdi-information\"></i>");
             }
             );
@@ -300,7 +307,7 @@ WriteAttributeValue("", 1062, emp.IsActive ? "text-success" : "text-danger", 106
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e821304", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e821517", async() => {
                 WriteLiteral("  <i class=\"mdi mdi-table-edit\"></i>");
             }
             );
@@ -332,7 +339,7 @@ WriteAttributeValue("", 1062, emp.IsActive ? "text-success" : "text-danger", 106
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e823609", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2118e41d987912b510585d01c422b904e5c873e823822", async() => {
                 WriteLiteral("\r\n                            <button type=\"submit\" class=\"btn btn-danger\">\r\n                                <i class=\"mdi mdi-delete-forever\"></i>\r\n                                </button>\r\n                        ");
             }
             );
