@@ -21,27 +21,34 @@ using AASA_Back_End;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\marda\Desktop\Back\AASA-Back-End\Areas\AdminArea\Views\_ViewImports.cshtml"
-using AASA_Back_End.Models;
+using AASA_Back_End.Helpers;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\marda\Desktop\Back\AASA-Back-End\Areas\AdminArea\Views\_ViewImports.cshtml"
-using AASA_Back_End.ViewModel;
+using AASA_Back_End.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 4 "C:\Users\marda\Desktop\Back\AASA-Back-End\Areas\AdminArea\Views\_ViewImports.cshtml"
+using AASA_Back_End.ViewModel;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "C:\Users\marda\Desktop\Back\AASA-Back-End\Areas\AdminArea\Views\_ViewImports.cshtml"
 using AASA_Back_End.ViewModel.ProductViewModel;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"5a7539857cd3a83d41f9737566f32d74f97eeeae", @"/Areas/AdminArea/Views/Slider/Edit.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b84f269b8fec19838685b3c432555cd645e1d9c8", @"/Areas/AdminArea/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9eceb98c374f5bb5f39de0ef2be9a3f6955a4e02", @"/Areas/AdminArea/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Areas_AdminArea_Views_Slider_Edit : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Slider>
     #nullable disable
@@ -95,7 +102,7 @@ using AASA_Back_End.ViewModel.ProductViewModel;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<div class=\"container-fluid mx-5 my-3\">\r\n    <h3>Update Slider</h3>\r\n    <div class=\"img-area\">\r\n  \r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5a7539857cd3a83d41f9737566f32d74f97eeeae8010", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "5a7539857cd3a83d41f9737566f32d74f97eeeae8204", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -119,9 +126,9 @@ AddHtmlAttributeValue("", 257, Model.ImageFirst, 257, 17, false);
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n    </div>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a7539857cd3a83d41f9737566f32d74f97eeeae9600", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a7539857cd3a83d41f9737566f32d74f97eeeae9794", async() => {
                 WriteLiteral("\r\n        <div class=\"form-group\">\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5a7539857cd3a83d41f9737566f32d74f97eeeae9908", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("input", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "5a7539857cd3a83d41f9737566f32d74f97eeeae10102", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.InputTagHelper>();
@@ -145,7 +152,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_InputTagHelper.For = ModelExpressionProvid
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a7539857cd3a83d41f9737566f32d74f97eeeae11716", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("span", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a7539857cd3a83d41f9737566f32d74f97eeeae11911", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ValidationMessageTagHelper>();
@@ -167,7 +174,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ValidationMessageTagHelper.For = ModelExpr
                 Write(__tagHelperExecutionContext.Output);
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n        </div>\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a7539857cd3a83d41f9737566f32d74f97eeeae13398", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5a7539857cd3a83d41f9737566f32d74f97eeeae13593", async() => {
                     WriteLiteral("Back");
                 }
                 );

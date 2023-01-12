@@ -574,3 +574,5 @@ C:\Users\marda\Desktop\Back\AASA-Back-End\obj\Debug\netcoreapp3.1\AASA-Back-End.
 C:\Users\marda\Desktop\Back\AASA-Back-End\obj\Debug\netcoreapp3.1\AASA-Back-End.dll
 C:\Users\marda\Desktop\Back\AASA-Back-End\obj\Debug\netcoreapp3.1\AASA-Back-End.pdb
 C:\Users\marda\Desktop\Back\AASA-Back-End\obj\Debug\netcoreapp3.1\AASA-Back-End.genruntimeconfig.cache
+C:\Users\marda\Desktop\Back\AASA-Back-End\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgotPassword.cshtml.g.cs
+C:\Users\marda\Desktop\Back\AASA-Back-End\obj\Debug\netcoreapp3.1\Razor\Views\Home\Search.cshtml.g.cs

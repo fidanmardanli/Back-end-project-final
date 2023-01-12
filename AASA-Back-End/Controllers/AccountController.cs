@@ -170,5 +170,45 @@ namespace AASA_Back_End.Controllers
                 }
             }
         }
+
+        [HttpGet]
+        public IActionResult ForgotPassword()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordVM forgotPassword)
+        {
+            if (!ModelState.IsValid) return View();
+
+            AppUser existUser = await _userManager.FindByEmailAsync(forgotPassword.Email);
+            if (existUser == null)
+            {
+                ModelState.AddModelError("Email", "User not found");
+                return View();
+
+            }
+
+            string token = await _userManager.GeneratePasswordResetTokenAsync(existUser);
+
+            string link = Url.Action(nameof(ConfirmEmail), "Account", new { userId = existUser.Id, token },
+                Request.Scheme, Request.Host.ToString());
+
+            string path = "wwwroot/templates/verify.html";
+            string body = string.Empty;
+            string subject = "Verify email";
+
+           
+
+            return View();
+        }
+
+
+        public IActionResult ResetPassword()
+        {
+            return View();
+        }
     }
 }

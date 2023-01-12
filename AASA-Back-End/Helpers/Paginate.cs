@@ -5,22 +5,32 @@ namespace AASA_Back_End.Helpers
 {
     public class Paginate<T>
     {
-        private IEnumerable<Product> products;
-        private int page;
-        private int count;
-
-        public IEnumerable<Product> Datas { get; set; }
+        public List<T> Datas { get; set; }
         public int CurrentPage { get; set; }
         public int TotalPage { get; set; }
 
-
-        public Paginate(IEnumerable<Product> datas, int currentPage, int totalPage)
+        public Paginate(List<T> datas, int currentPage, int totalPage)
         {
-            Datas= products;
-            CurrentPage= currentPage;
+            Datas = datas;
+            CurrentPage = currentPage;
             TotalPage = totalPage;
         }
 
-      
+        public bool HasPrevious
+        {
+            get
+            {
+                return CurrentPage > 1;
+            }
+        }
+
+        public bool HasNext
+        {
+            get
+            {
+                return CurrentPage < TotalPage;
+            }
+        }
+
     }
 }

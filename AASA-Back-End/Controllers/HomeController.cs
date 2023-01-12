@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using AASA_Back_End.Models;
 using AASA_Back_End.ViewModel;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 
 namespace AASA_Back_End.Controllers
 {
@@ -54,5 +55,20 @@ namespace AASA_Back_End.Controllers
         //    return Json(sessionData + "-" + cookieData);
         //}
         
+
+        public IActionResult Search(string search) 
+        {
+            List<Product> searchProduct = _context.Products.Include(m => m.Image)
+                .Where(m => m.Title.ToLower()
+            .Contains(search.ToLower()) && !m.IsDeleted).ToList();
+
+            ShopVM model = new ShopVM
+            {
+                Products = searchProduct,
+            };
+
+            return View(model);
+
+        }
     }
 }

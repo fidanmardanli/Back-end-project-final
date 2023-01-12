@@ -1,7 +1,9 @@
 ﻿using AASA_Back_End.Data;
 using AASA_Back_End.Helpers;
+using AASA_Back_End.Helpers.Enums;
 using AASA_Back_End.Models;
 using AASA_Back_End.ViewModel.ProductViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -12,6 +14,7 @@ using System.Threading.Tasks;
 namespace AASA_Back_End.Areas.AdminArea.Controllers
 {
     [Area("AdminArea")]
+    [Authorize(Roles = "Admin")]
     public class ProductController : Controller
     {
         
@@ -22,18 +25,68 @@ namespace AASA_Back_End.Areas.AdminArea.Controllers
         {
             _context = context;
         }
-        public async Task<IActionResult> Index(/*int page = 1, int take = 5*/)
+        //public async Task<IActionResult> Index(/*int page = 1, int take = 5*/)
+        //{
+        //    IEnumerable<Product> products = await _context.Products
+        //        //.Skip((page*take) - take)
+        //        //.Take(take)
+        //        .ToListAsync();
+
+
+
+        //    return View(products);
+
+        //}
+
+        public async Task<IActionResult> Index(int page = 1, int take = 4)
         {
-            IEnumerable<Product> products = await _context.Products
-                //.Skip((page*take) - take)
-                //.Take(take)
-                .ToListAsync();
+            List<Product> products = await _context.Products
+                .Where(m => !m.IsDeleted)
+                .Skip((page * take) - take)
+                .Take(take).ToListAsync();
+
+            List<ProductListVM> mapDatas = GetMapDatas(products);
+
+            int count = await GetPageCount(take);
+
+            Paginate<ProductListVM> result = new Paginate<ProductListVM>(mapDatas, page, count);
 
 
-           
-            return View(products);
+            return View(result);
+
+
+
 
         }
+
+        private List<ProductListVM> GetMapDatas(List<Product> products)
+        {
+            List<ProductListVM> productList = new List<ProductListVM>();
+            foreach (var product in products)
+            {
+                ProductListVM newProduct = new ProductListVM
+                {
+                    Id= product.Id,
+                    Title = product.Title,
+                    Image = product.Image,
+                };
+                productList.Add(newProduct);
+            }
+            return productList;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         private async Task<int> GetPageCount(int take)
         {
